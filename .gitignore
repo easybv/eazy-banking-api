@@ -3,7 +3,8 @@
 db.sqlite3
 media/ 
 **/migrations/__init__.py
-**/migrations
+!delivery/migrations/
+!delivery/migrations/__init__.py
 **/env
 /env
 **/.env

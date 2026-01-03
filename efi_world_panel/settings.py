@@ -14,7 +14,7 @@ ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', "localhost"]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://flyexpressdelivery.vercel.app",
-    "https://www.flyexpressdelivery.org"
+    "https://www.flyexpressdelivery.org",
     "https://easibanking.vercel.app"
 ]
 
