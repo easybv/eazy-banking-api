@@ -9,13 +9,35 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', "localhost"]
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1', "localhost", "eazy-banking-api.vercel.app"]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://flyexpressdelivery.vercel.app",
     "https://www.flyexpressdelivery.org",
     "https://easibanking.vercel.app"
+]
+
+# Additional CORS settings
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
 ]
 
 # Quick-start development settings - unsuitable for production
