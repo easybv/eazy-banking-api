@@ -11,7 +11,7 @@ media/
 ****/node_modules
 **/media
 **/static
-staticfiles_build/
+!staticfiles_build/static
 **/templates
 **/__pycache__
 **/__init__.pyc
